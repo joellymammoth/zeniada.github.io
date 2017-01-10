@@ -393,9 +393,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #7f7f7f;
+  background: -webkit-linear-gradient(#7f7f7f, #7f7f7f);
+  background: linear-gradient(#7f7f7f, #7f7f7f);
+}
+.bg-fall2016 {
+  background-image: url('../img/bg-fall2016.jpg');
 }
 .text-primary {
   color: #fdcc52;
@@ -447,4 +450,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
 }
