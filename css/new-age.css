@@ -455,3 +455,7 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+.fit {
+  max-width: 100%;
+  height: auto;
+}
