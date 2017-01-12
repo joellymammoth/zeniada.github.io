@@ -459,3 +459,8 @@ th, td {
   max-width: 100%;
   height: auto;
 }
+.btn-dark {
+  color: black;
+  border-color: black;
+  border: 1px solid;
+}
