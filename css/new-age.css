@@ -400,6 +400,9 @@ footer ul li a.active {
 .bg-fall2016 {
   background-image: url('../img/bg-fall2016.jpg');
 }
+.bg-spring2017 {
+  background-image: url('../img/bg-spring2017.jpg');
+}
 .text-primary {
   color: #fdcc52;
 }
