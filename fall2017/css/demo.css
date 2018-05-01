@@ -46,6 +46,7 @@ a:hover, a:focus {
 	position: relative;
 	background: #cfa8a6;
 	height: calc(100% - 35px);
+	min-height: 400px;
 }
 
 .title {
@@ -157,13 +158,13 @@ section h2 span.description {
 }
 
 .related span {
-	display: inline-block;
+	display: block;
 	text-align: left;
 	vertical-align: top;
 	padding-right: 5%;
 	font-size: 1.25em;
 	color: #777;
-	width: 50%;
+	width: 100%;
 }
 
 .related {
@@ -182,7 +183,8 @@ section h2 span.description {
 	text-transform: uppercase;
 	color: #777;
 	font-weight: bolder;
-	width: 20%;
+	width: 30%;
+	max-height: 100px;
 }
 
 .related a:hover {
@@ -191,12 +193,12 @@ section h2 span.description {
 
 .related a img {
 	max-width: 100%;
-	opacity: .5;
+	opacity: 1;
 }
 
 .related a:hover img,
 .related a:active img {
-	opacity: 1;
+	opacity: .5;
 }
 
 .related a h3 {
