@@ -49,20 +49,21 @@ a:hover, a:focus {
 	text-align: center;
 	align-items: center;
 	align-content: center;
-	height: 100%;
+	height: calc(100% - 35px);
+	min-height: 450px;
 }
 
 .title {
-	height: 20%;
+	height: 85%;
 }
 
 .title h1 {
 	margin: 0;
-	font-size: 4.5em;
-	text-transform: uppercase;
-	font-weight: 500;
-	color: #000;
+	font-size: 5em;
+	font-weight: 600;
+	color: rgb(0,0,0,.85);
 	position: relative;
+	text-transform: uppercase;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -70,17 +71,24 @@ a:hover, a:focus {
 
 .title h1 span {
 	display: block;
-	font-size: 0.3em;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #c49b49;
+	font-size: 0.4em;
+	font-weight: 300;
+	color: rgb(0,0,0,.85);
 }
 
 .toc {
 	height: 80%;
 	font-size: .8em;
 	font-weight: 350;
+}
+
+.toc h2 span a {
+	color: #906f2f;
+	letter-spacing: .75px;
+	text-transform: capitalize;
+	position: relative;
+	display: inline-block;
+	width: max-content;
 }
 
 .toc h1 {
@@ -115,7 +123,7 @@ a:hover, a:focus {
 }
 
 .top a {
-	color: #dcae52;
+	color: #c49b49;
 	display: inline-block;
 	text-decoration: none;
 	font-weight: 400;
