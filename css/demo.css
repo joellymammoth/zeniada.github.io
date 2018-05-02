@@ -42,6 +42,25 @@ section {
 	text-align: center;
 }
 
+.past a {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #777;
+	font-weight: bolder;
+	width: 30%;
+	min-width: 250px;
+	padding: 1em;
+}
+
+.past a:hover img {
+	opacity: .5;
+}
+
+.past a img {
+	max-width: 100%;
+	opacity: 1;
+}
+
 .header {
 	margin: 0 auto;
 	padding: 6.5em 0em;
