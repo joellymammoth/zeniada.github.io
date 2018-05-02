@@ -46,7 +46,7 @@ a:hover, a:focus {
 	position: relative;
 	background: #fefaf0;
 	height: calc(100% - 35px);
-	min-height: 400px;
+	min-height: 450px;
 }
 
 .title {
