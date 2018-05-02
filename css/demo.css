@@ -195,7 +195,7 @@ body #cdawrap {
 	text-align: left;
 	vertical-align: top;
 	padding-left: 5%;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	color: #777;
 	width: 50%;
 }
@@ -301,7 +301,7 @@ body #cdawrap {
 	.re span {
 		width: 65%;
 		margin-top: 1em;
-		font-size: 1.5em;
+		font-size: 1.75em;
 		text-align: center;
 		padding-left: 0;
 	}
