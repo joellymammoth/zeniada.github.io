@@ -50,7 +50,7 @@ a:hover, a:focus {
 }
 
 .title {
-	height: 85%;
+	height: 75%;
 }
 
 .title h1 {
@@ -73,7 +73,7 @@ a:hover, a:focus {
 }
 
 .toc {
-	height: 15%;
+	height: 25%;
 	font-size: .75em;
 	font-weight: 400;
 }
