@@ -16,6 +16,7 @@
 
 html, body, section, .container, .codrops-header {
 	height: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
